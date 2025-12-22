@@ -56,7 +56,7 @@ function renderProducts() {
         <div class="price">Rp ${finalPrice}</div>
         <small>Stok: ${p.stock}</small>
         <a href="https://wa.me/6283125648754?text=${waText}" target="_blank">
-          <button ${p.stock<=0 ? "disabled" : ""}>${p.stock<=0 ? "HABIS" : "OREDER"}</button>
+          <button ${p.stock<=0 ? "disabled" : ""}>${p.stock<=0 ? "HABIS" : "ORDER"}</button>
         </a>
       </div>
     `;
